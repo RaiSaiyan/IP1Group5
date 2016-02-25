@@ -21,12 +21,7 @@ public class goneOnTouch : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		// Checking for the appropriate tag
-		if (other.gameObject.CompareTag("PickUp"))
-		{
-			Destroy(gameObject);
-			Debug.Log("Animal and Food have been destroyed.");
-		}
+		Destroy(gameObject);
 	}
 
 	public void changeBool()

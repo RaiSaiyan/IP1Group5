@@ -6,7 +6,6 @@ using System.Collections;
  * is, it will call methods to increase or decrease points and in the case
  * of a wrong collision, it will decrease lives.*/
 public class GoneOnTouchAnimal : MonoBehaviour {
-	
 	//Variables to store the scoreScript and the scoreObject it is attached to
 	score scoreScript;
 	GameObject scoreObject;
@@ -28,10 +27,11 @@ public class GoneOnTouchAnimal : MonoBehaviour {
 		// Checking to see if the objects tag is Carrot
 		if (other.tag == "Carrot") {
 			// Checks if this objects name is Winston
-			if (this.name == "Winston") 
+			if (gameObject.tag == "Winston") 
 			{
 				// Accesses the method modifyScore in the scoreScript and adds 100 to the score
 				scoreScript.ModifyScore(100);
+				Destroy(gameObject);
 			} 
 			// Else the wrong animal was hit therefore it deducts points and a life
 			else 
@@ -39,16 +39,18 @@ public class GoneOnTouchAnimal : MonoBehaviour {
 				Debug.Log ("score- also lose life");
 				scoreScript.ModifyScore(-50);
 				scoreScript.ModifyLives(-1);
+				Destroy(gameObject);
 			}
 		} 
 		// Checking to see if the objects tag is Meat
 		else if (other.tag == "Meat") 
 		{
 			// Checks to see if this objects name is Roland
-			if (this.name == "Roland")
+			if (gameObject.tag == "Roland")
 			{
 				// Adds score
 				scoreScript.ModifyScore(100);
+				Destroy(gameObject);
 			}
 			// Wrong animal was hit. Deducts points and a life
 			else
@@ -56,6 +58,7 @@ public class GoneOnTouchAnimal : MonoBehaviour {
 				Debug.Log ("score- also lose life");
 				scoreScript.ModifyScore(-50);
 				scoreScript.ModifyLives(-1);
+				Destroy(gameObject);
 			}
 		}
 	}

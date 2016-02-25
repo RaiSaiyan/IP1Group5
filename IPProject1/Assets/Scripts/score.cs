@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 /*This class manages the persistant data while the game is being played.
@@ -6,9 +7,19 @@ using System.Collections;
  * depending on the situation*/
 public class score : MonoBehaviour {
 	// These variables will store the players score and lives
+	public Text scoreText;
 	int playerScore = 0;
 	int lives = 3;
-	
+
+	void Start()
+	{
+		scoreText.text = "Score: " + playerScore;
+	}
+
+	void Update()
+	{
+		scoreText.text = "Score: " + playerScore;
+	}
 	// This method is called by other classes. An integer is passed in which changes the score
 	public void ModifyScore(int value)
 	{

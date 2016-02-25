@@ -8,7 +8,7 @@ public class LevelSelector : MonoBehaviour {
 		{
 			GetComponent<AudioSource>().Play();
 			yield return new WaitForSeconds(GetComponent<AudioSource>().clip.length);
-			Application.LoadLevel("Level1");
+			Application.LoadLevel("Test");
 		}
 	}
 
@@ -16,7 +16,7 @@ public class LevelSelector : MonoBehaviour {
 	{
 		GetComponent<AudioSource>().Play();
 		StartCoroutine(DelayLoadLevel1());
-		Application.LoadLevel("Level1");
+		Application.LoadLevel("Test");
 	}
 
 	// Level 2 Loading -----------------------------
