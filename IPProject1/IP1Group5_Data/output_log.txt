@@ -1,0 +1,98 @@
+Initialize engine version: 4.6.3f1 (4753d8b6ef2b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.211 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ben\Documents\GitHub\IP1Group5\IPProject1\IP1Group5_Data\Managed\System.dll (this message is harmless)
+NullReferenceException: Object reference not set to an instance of an object
+  at ButtonScript+<DelayLoadMainLevel>c__Iterator4.MoveNext () [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ButtonScript:LoadMainLevel()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.InvokableCallList:Invoke(Object[])
+UnityEngine.Events.UnityEventBase:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.UI.Button:Press()
+UnityEngine.UI.Button:OnPointerClick(PointerEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 4.334814 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 251.
+Total: 0.689629 ms (FindLiveObjects: 0.009851 ms CreateObjectMapping: 0.008275 ms MarkObjects: 0.188367 ms  DeleteObjects: 0.006699 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at LevelSelector+<DelayLoadLevel1>c__Iterator2.MoveNext () [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+LevelSelector:LoadMainLevel()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.InvokableCallList:Invoke(Object[])
+UnityEngine.Events.UnityEventBase:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.UI.Button:Press()
+UnityEngine.UI.Button:OnPointerClick(PointerEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.750711 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 259.
+Total: 0.598598 ms (FindLiveObjects: 0.010639 ms CreateObjectMapping: 0.008669 ms MarkObjects: 0.147777 ms  DeleteObjects: 0.002758 ms)
+
+score- also lose life
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+score- also lose life
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+score- also lose life
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+score- also lose life
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+score- also lose life
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
